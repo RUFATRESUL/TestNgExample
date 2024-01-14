@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="method">
+    <test name="methodlari isletmek">
+        <classes>
+            <class name="Test01.BeforeAfterClaass">
+                <methods>
+                    <include name="test_facebook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
